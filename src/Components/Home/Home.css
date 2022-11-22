@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.contenedor-home {
+    background: transparent;
+}
+
+.p{
+    font-size: 150px;
+}
+
+.titulo{
+    font-size: 40px;
+    color: white;
+    padding: 50px;
+    }
+
+.texto-acerca-de {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    color: white;
+    
+}
+
+.dish{
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+.dishes-container{
+    display: flex;
+}
+
+.dish-card{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid wheat;
+    margin: 15px;
+    width: 30%;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+    background: rgba(158, 36, 36, 0.418);;
+    
+}
+
+@media screen and (max-width: 500px){
+    .dish {
+        font-size: 15px;
+        font-weight:400;
+    }
+    .dish-card{
+        border: 2px solid wheat;
+        margin: 5px;
+        width: 80%;
+        border-radius: 2px;
+        background: rgba(158, 36, 36, 0.418);;
+    }
+    .texto-acerca-de {
+        
+        width: 90%;
+         font-size: 15px;
+        }
+.titulo{
+    font-size: 30px;
+       }
+  }
+

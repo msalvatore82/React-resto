@@ -1,0 +1,48 @@
+
+
+.contenedor-nav {
+    margin: auto;
+    overflow: hidden;
+    background: rgba(158, 36, 36, 0.418);
+    position:fixed;
+    width: 100%;
+    margin-top: -40px;
+
+}
+
+
+.nav {
+    text-align: center;
+    
+    }
+    
+    .nav a {
+        color: white;
+        font-size: 2em;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 5px solid transparent;
+        margin: 15px;
+     
+
+        }
+    
+    .nav a:hover {
+        border-bottom: 3px solid white;
+        text-shadow: 15px;
+        text-shadow: 1px 3px 5 #969696, 1px 8px 4px #aba8a8;
+    
+    }
+    .nav {
+        margin: 5px ;
+        text-align: center;
+     }
+
+     @media screen and (max-width: 500px){
+        .nav a {
+            font-size: 20px;    
+            }
+    
+      }
+    
+    
